@@ -1,8 +1,7 @@
 # StressDetection
 Stress Detection in IT Professionals by Image Processing and Machine Learning
-Description:
+# Description:
 This is a real time face stress detection model.The model is image processing based model which is having two parts
-
 Emotion Recognition
 Stress level calculation
 The emotion recognition model will return the emotion predicted real time. The model classifies face as stressed and not stressed. A model is trained on the fer2013 dataset.
@@ -11,20 +10,21 @@ The stress level is calculated with the help of eyebrows contraction and displac
 
 *** Important**** Before running the eyebrow_detection.py first download file in the same folder using this link
 
-Procedure:
+# Procedure:
 Real time web cam feed
 Detect faces
 Detect eyebrows both left and right
 Predict stress/not stress
 Calculate the stress level
-Accuracy/Usage:
+
+# Accuracy/Usage:
 Run the eyebrow_detection.py file and sit straight infront of the webcam.
 Do not run the emotion_recognitio.py. Use only if you want to retrain the model.
 Try to be clear with your emotion, Fakeness cannot be detected.
 The model is moderately accurate because the data could not be arranged within stipulated time.
-Improvement Strategy:
-The model can be improved by including other facial features inputs as well. The feature include:
 
+# Improvement Strategy:
+The model can be improved by including other facial features inputs as well. The feature include:
 Lip movement
 Head positioning
 Eye blinking
